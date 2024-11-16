@@ -40,5 +40,4 @@ _arrayList.Add("d");
 
 _arrayList.RemoveAt(3);
 Console.WriteLine(_arrayList);
-
 Console.ReadKey();  

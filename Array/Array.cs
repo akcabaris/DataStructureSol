@@ -56,12 +56,18 @@ namespace DataStructures.Arrray
         {
             return InnerArray.GetEnumerator();
         }
-        
-        /*
-        public IEnumerator GetEnumerator()
+        /*public IEnumerator GetEnumerator(){return new CustomArrayEnumerator(InnerArray);}*/
+
+        public int IndexOf(Object value)
         {
-            return new CustomArrayEnumerator(InnerArray);
+            for(int i = 0; i<InnerArray.Length;i++)
+            {
+                if (GetValue(i).Equals(value))
+                {
+                    return i;
+                }
+            }
+            return -1; // O(n)
         }
-        */
     }
 }
