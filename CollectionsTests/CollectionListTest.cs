@@ -24,7 +24,7 @@ namespace CollectionsTests
         [Fact]
         public void AddRange_Test()
         {
-            leftList.AddRange(new int[] { 7, 8 });
+            leftList.AddRange(new int[] { 7, 8 }); 
 
             Assert.Collection(leftList,
                 item => Assert.Equal(item, leftList[0]),
