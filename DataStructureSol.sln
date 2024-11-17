@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationsTests", "Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypesTests", "ValueAndReferenceTypesTests\ValueAndReferenceTypesTests.csproj", "{CC18E866-2208-4D00-9F93-DA6B8F4ED50A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{5EA8E284-B92D-442D-9D52-86C770D90770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrray", "Array\Arrray.csproj", "{5EA8E284-B92D-442D-9D52-86C770D90770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayApp", "ArrayApp\ArrayApp.csproj", "{C8F99D9E-2BC1-4BF3-8DE0-41E3F7854CA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayTest", "ArrayTest", "{43CB25EE-324B-4EF1-BEF9-7080A1113C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTest", "ArrayTest\ArrayTest.csproj", "{55779D5A-03A9-4E53-A99D-13458ADF0CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayTest", "ArrayTest\ArrayTest.csproj", "{55779D5A-03A9-4E53-A99D-13458ADF0CBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
