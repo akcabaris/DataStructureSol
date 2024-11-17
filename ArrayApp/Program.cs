@@ -30,7 +30,7 @@ foreach (var item in _arr)
     Console.WriteLine(item);
 }
 */
-
+/*
 var _arrayList = new System.Collections.ArrayList();
 
 _arrayList.Add("a");
@@ -40,4 +40,7 @@ _arrayList.Add("d");
 
 _arrayList.RemoveAt(3);
 Console.WriteLine(_arrayList);
+
+*/
+
 Console.ReadKey();  
