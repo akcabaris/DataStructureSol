@@ -12,7 +12,6 @@ namespace DataStructures.LinkedList.SinglyLinkedList
             Head = head;
             Curr = null;
         }
-
         public T Current => Curr.Value;
 
         object IEnumerator.Current => Current;
