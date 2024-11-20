@@ -134,5 +134,20 @@ namespace LinkedListTests
 
             Assert.Throws<Exception>(() => _list.RemoveFirst());
         }
+
+        [Theory]
+        [InlineData(4)]
+        public void Remove_Test(int value)
+        {
+             // 4 8 6
+             _list.AddFirst(value);
+
+            //act
+            _list.Remove(8);
+
+            Assert.Collection(_list,
+                item => Assert.Equal(4, item),
+                item => Assert.Equal(6, item));
+        }
     }
 }
